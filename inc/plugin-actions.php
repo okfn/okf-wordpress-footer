@@ -13,7 +13,7 @@
       <div class="container">
         <ul>
         <?php foreach($data['links'] as $key=>$val){ ?>
-          <li><a href="<?php echo $val['url'] ?>"><? printf( __( '%s', $okffooter->textdomain ), $val['text'] ); ?></a></li>
+          <li><a href="<?php echo $val['url'] ?>"><? printf( __( '%s', 'okffooter' ), $val['text'] ); ?></a></li>
 				<?php
           }
 				?>
