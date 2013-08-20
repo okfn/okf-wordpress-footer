@@ -3,7 +3,7 @@
 	/*
 	  Plugin Name: OKF Footer
 	  Plugin URI: https://github.com/okfn/okf-wordpress-footer
-	  Version: 0.0.1
+	  Version: 0.0.2
 	  Author: Mint Canary
 	  Author URI: http://www.mintcanary.com/
 	  Description: Global footer for all Open Knowledge Foundation websites
