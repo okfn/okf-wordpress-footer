@@ -36,14 +36,13 @@
       <div class="container">
         <ul>
         <?php foreach($data[$lang]['links'] as $links){ ?>
-          <li><a href="<?php echo $links['url'] ?>"><? echo $links['text']; ?></a></li>
+          <li><a href="<?php echo $links['url'] ?>"><?php echo $links['text']; ?></a></li>
 				<?php
           }
 				?>
         </ul>
       </div>
     </div>
-<?
-  }
+<?php }
 	add_action('okf_footer', 'footer_content');
 ?>
