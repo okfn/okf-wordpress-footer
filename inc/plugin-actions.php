@@ -4,7 +4,7 @@
 	function footer_content() { 
 	
 		// Get links from json file
-		$json = file_get_contents('http://assets.okfn.org/themes/okfn/okf-footer/okf-footer.json');
+		$json = file_get_contents('https://assets.okfn.org/themes/okfn/okf-footer/okf-footer.json');
 		$data = json_decode($json,true);
 	  
 		// Get WP language
